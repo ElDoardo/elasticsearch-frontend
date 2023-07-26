@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.results {
+  text-align: left;
+}
+
+.result {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.pagination {
+  margin: 20px 0;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.pagination button.active {
+  font-weight: bold;
+  text-decoration: underline
+}
